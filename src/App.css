@@ -95,6 +95,7 @@ button {
   font-size: 18px;
 }
 
-form {
+form,
+p {
   margin: 15px;
 }
