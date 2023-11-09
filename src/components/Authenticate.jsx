@@ -39,7 +39,7 @@ export default function Authenticate({ token }) {
   return (
     <>
       {/* <h2>Authenticate</h2> */}
-      {error && <p>Error: {error}</p>}
+      {error && <p>{error}</p>}
       {successMessage && (
         <>
           <h3>{successMessage}</h3> <p>Username: {userName}</p>
