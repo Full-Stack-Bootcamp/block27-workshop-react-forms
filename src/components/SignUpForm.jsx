@@ -52,7 +52,7 @@ export default function SignUpForm({ setToken }) {
 
   return (
     <>
-      {error && <p>We`ve encountered an error: {error}</p>}
+      {error && <p>{error}</p>}
       <form onSubmit={handleSubmit}>
         <h2>Sign Up!</h2>
         <label>
